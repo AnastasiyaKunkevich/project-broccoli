@@ -8,7 +8,6 @@ function start () {
     numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?','');
   }
 }
-
 start();
 
 const personalMovieDB = {
@@ -63,4 +62,5 @@ function writeYourGenres(){
     personalMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`);
   }
 }
+
 writeYourGenres();
